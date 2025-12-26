@@ -1,0 +1,20 @@
+{
+  "common": {
+    "search": "ຄົ້ນຫາ...",
+    "notifications": "ການແຈ້ງເຕືອນ"
+  },
+  "nav": {
+    "dashboard": "ໜ້າຫຼັກ",
+    "analytics": "ການວິເຄາະ",
+    "users": "ຜູ້ໃຊ້",
+    "documents": "ເອກະສານ",
+    "messages": "ຂໍ້ຄວາມ",
+    "calendar": "ປະຕິທິນ",
+    "settings": "ການຕັ້ງຄ່າ",
+    "help": "ຊ່ວຍເຫຼືອ"
+  },
+  "app": {
+    "name": "ແອັບ Electron",
+    "description": "ແມ່ແບບ Desktop"
+  }
+}

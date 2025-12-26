@@ -1,0 +1,8 @@
+export { Dashboard } from './Dashboard'
+export { Analytics } from './Analytics'
+export { Users } from './Users'
+export { Documents } from './Documents'
+export { Messages } from './Messages'
+export { CalendarPage } from './CalendarPage'
+export { Settings } from './Settings'
+export { Help } from './Help'

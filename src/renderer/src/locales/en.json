@@ -1,0 +1,20 @@
+{
+  "common": {
+    "search": "Search anything...",
+    "notifications": "Notifications"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "users": "Users",
+    "documents": "Documents",
+    "messages": "Messages",
+    "calendar": "Calendar",
+    "settings": "Settings",
+    "help": "Help"
+  },
+  "app": {
+    "name": "Electron App",
+    "description": "Desktop Template"
+  }
+}
