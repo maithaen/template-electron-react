@@ -72,7 +72,9 @@ src/
 ## 🔧 Examples Included
 
 ### Zustand State Management
+
 A counter example demonstrating Zustand store usage with:
+
 - Increment/Decrement actions
 - Reset functionality
 - Custom amount addition
@@ -80,7 +82,9 @@ A counter example demonstrating Zustand store usage with:
 **Store location:** `src/renderer/src/store/counterStore.ts`
 
 ### Electron IPC Communication
+
 Ping/Pong example showing inter-process communication:
+
 - Main process: `ipcMain.on('ping', () => console.log('pong'))`
 - Renderer: `window.electron.ipcRenderer.send('ping')`
 
@@ -88,20 +92,21 @@ Ping/Pong example showing inter-process communication:
 
 ## 🛠️ Tech Stack
 
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| Electron | 39.x | Desktop app framework |
-| React | 19.x | UI library |
-| TypeScript | 5.x | Type safety |
-| Vite | 7.x | Build tool |
-| Zustand | 5.x | State management |
-| Tailwind CSS | 4.x | Styling |
-| i18next | 25.x | Internationalization |
-| React Router | 7.x | Routing |
+| Technology   | Version | Purpose               |
+| ------------ | ------- | --------------------- |
+| Electron     | 39.x    | Desktop app framework |
+| React        | 19.x    | UI library            |
+| TypeScript   | 5.x     | Type safety           |
+| Vite         | 7.x     | Build tool            |
+| Zustand      | 5.x     | State management      |
+| Tailwind CSS | 4.x     | Styling               |
+| i18next      | 25.x    | Internationalization  |
+| React Router | 7.x     | Routing               |
 
 ## 🌐 Internationalization
 
 Pre-configured with English and Lao language support:
+
 - Translation files: `src/renderer/src/locales/`
 - Language context: `src/renderer/src/context/`
 

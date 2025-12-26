@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Enable class-based dark mode */
 @variant dark (&:where(.dark, .dark *));
@@ -45,7 +45,9 @@
 /* Apply smooth theme transitions specifically */
 html.dark,
 html:not(.dark) {
-  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+  transition:
+    background-color 200ms ease-in-out,
+    color 200ms ease-in-out;
 }
 
 /* Prevent layout shift during sidebar animation */
