@@ -6,25 +6,25 @@
 
 ## Project Overview
 
-| Property       | Value                              |
-| -------------- | ---------------------------------- |
-| **Name**       | template-electron-react            |
-| **Type**       | Desktop Application                |
-| **Framework**  | Electron + React + TypeScript      |
-| **Build Tool** | Vite                               |
-| **Language**   | TypeScript                         |
+| Property       | Value                         |
+| -------------- | ----------------------------- |
+| **Name**       | template-electron-react       |
+| **Type**       | Desktop Application           |
+| **Framework**  | Electron + React + TypeScript |
+| **Build Tool** | Vite                          |
+| **Language**   | TypeScript                    |
 
 ---
 
 ## Commands
 
-| Command                              | Description                    |
-| ------------------------------------ | ------------------------------ |
-| `npm run dev`                        | Start development server       |
-| `npm run build`                      | Build production bundle        |
-| `npm run lint`                       | Run ESLint                     |
-| `npm run test`                       | Run all tests                  |
-| `npm run test -- <test-file-path>`   | Run a single test file         |
+| Command                            | Description              |
+| ---------------------------------- | ------------------------ |
+| `npm run dev`                      | Start development server |
+| `npm run build`                    | Build production bundle  |
+| `npm run lint`                     | Run ESLint               |
+| `npm run test`                     | Run all tests            |
+| `npm run test -- <test-file-path>` | Run a single test file   |
 
 ---
 
@@ -61,13 +61,13 @@ src/
 
 ### Naming Conventions
 
-| Type                   | Convention  | Example            |
-| ---------------------- | ----------- | ------------------ |
-| Variables & Functions  | camelCase   | `getUserData`      |
-| Components & Types     | PascalCase  | `UserProfile`      |
-| Constants              | UPPER_SNAKE | `MAX_RETRY_COUNT`  |
-| Files (components)     | PascalCase  | `Dashboard.tsx`    |
-| Files (utilities)      | camelCase   | `formatDate.ts`    |
+| Type                  | Convention  | Example           |
+| --------------------- | ----------- | ----------------- |
+| Variables & Functions | camelCase   | `getUserData`     |
+| Components & Types    | PascalCase  | `UserProfile`     |
+| Constants             | UPPER_SNAKE | `MAX_RETRY_COUNT` |
+| Files (components)    | PascalCase  | `Dashboard.tsx`   |
+| Files (utilities)     | camelCase   | `formatDate.ts`   |
 
 ### TypeScript
 
@@ -101,13 +101,13 @@ src/
 
 ## Additional Configuration Files
 
-| File                              | Purpose                        |
-| --------------------------------- | ------------------------------ |
-| `.cursor/rules/`                  | Cursor IDE rules               |
-| `.github/copilot-instructions.md` | GitHub Copilot instructions    |
-| `.prettierrc.yaml`                | Prettier configuration         |
-| `electron.vite.config.ts`         | Vite config for Electron       |
-| `tsconfig.json`                   | TypeScript configuration       |
+| File                              | Purpose                     |
+| --------------------------------- | --------------------------- |
+| `.cursor/rules/`                  | Cursor IDE rules            |
+| `.github/copilot-instructions.md` | GitHub Copilot instructions |
+| `.prettierrc.yaml`                | Prettier configuration      |
+| `electron.vite.config.ts`         | Vite config for Electron    |
+| `tsconfig.json`                   | TypeScript configuration    |
 
 ---
 
