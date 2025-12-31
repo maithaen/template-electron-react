@@ -10,6 +10,7 @@ A modern Electron application template with React, TypeScript, and essential too
 - 🐻 **Zustand** - Lightweight state management (with counter example)
 - 🌍 **i18next** - Internationalization support (Lao & English)
 - 🎨 **Tailwind CSS v4** - Modern utility-first styling
+- 🧩 **shadcn/ui** - Reusable components built with Radix UI and Tailwind CSS
 - 🛣️ **React Router v7** - Client-side routing
 - 📦 **electron-builder** - Cross-platform packaging
 - ⚡ **IPC Example** - Pre-configured inter-process communication
@@ -100,6 +101,7 @@ Ping/Pong example showing inter-process communication:
 | Vite         | 7.x     | Build tool            |
 | Zustand      | 5.x     | State management      |
 | Tailwind CSS | 4.x     | Styling               |
+| shadcn/ui    | Latest  | UI Components         |
 | i18next      | 25.x    | Internationalization  |
 | React Router | 7.x     | Routing               |
 

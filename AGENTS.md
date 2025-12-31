@@ -11,6 +11,7 @@
 | **Name**       | template-electron-react       |
 | **Type**       | Desktop Application           |
 | **Framework**  | Electron + React + TypeScript |
+| **UI Library** | shadcn/ui + Tailwind CSS 4    |
 | **Build Tool** | Vite                          |
 | **Language**   | TypeScript                    |
 
@@ -18,13 +19,13 @@
 
 ## Commands
 
-| Command                            | Description              |
-| ---------------------------------- | ------------------------ |
-| `npm run dev`                      | Start development server |
-| `npm run build`                    | Build production bundle  |
-| `npm run lint`                     | Run ESLint               |
-| `npm run test`                     | Run all tests            |
-| `npm run test -- <test-file-path>` | Run a single test file   |
+| Command                             | Description              |
+| ----------------------------------- | ------------------------ |
+| `pnpm run dev`                      | Start development server |
+| `pnpm run build`                    | Build production bundle  |
+| `pnpm run lint`                     | Run ESLint               |
+| `pnpm run test`                     | Run all tests            |
+| `pnpm run test -- <test-file-path>` | Run a single test file   |
 
 ---
 
@@ -58,6 +59,12 @@ src/
 
 - Use **Prettier** with config in `.prettierrc.yaml`
 - Use **ESLint** for linting
+
+### UI Components (shadcn/ui)
+
+- Use existing components from `src/renderer/src/components/ui/`
+- When creating new UI elements, prefer using shadcn/ui primitives
+- Use `cn()` utility for class merging
 
 ### Naming Conventions
 
