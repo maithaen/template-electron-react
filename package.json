@@ -66,5 +66,8 @@
       "electron",
       "esbuild"
     ]
+  },
+  "volta": {
+    "node": "25.2.1"
   }
 }
